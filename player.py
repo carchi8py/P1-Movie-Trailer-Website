@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+#List of moives to show on the site
 toy_story = media.Movie("Toy Story", 
 						"A Story of a boy and his toys that come to life",
 						"http://www.gstatic.com/tv/thumb/movieposters/17420/p17420_p_v7_ab.jpg",
@@ -26,5 +27,6 @@ battle_royale = media.Movie("Battle Royale",
 					"http://www.kawaiikakkoiisugoi.com/wp-content/uploads/2015/12/ncbUwOyJRSaZRucSzbcz_James-Bratten-Battle-Roayle-Poster.jpg",
 					"https://www.youtube.com/watch?v=hCoPbkvyWEI")
 
+#Creating an array of moives to pass to fresh_tomatoes to display on website
 movies = [toy_story, avatar, thefall, mr_nobody, serenity, battle_royale]
 fresh_tomatoes.open_movies_page(movies)
